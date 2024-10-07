@@ -1,0 +1,41 @@
+# Requesitos iniciais
+
+[ x ] Instalar o node
+[ x ] Instalar o @types for node
+[ x ] Instalar o knex
+[ x ] Instalar sqlite3
+[ x ] Instalar pg
+[ x ] Configurar package.json
+[ x ] Configurar o Biome.json
+[ x ] Instalar fastify
+[ x ] Criar arquivo .env
+[ x ] Criar pasta de rotas
+[ x ] Criar pasta DATABASE
+[ x ] Criar migrations
+[ x ] Criar pasta @types para o knex.d.js
+[ ] Criar test
+
+# /------ Desafio ------\
+
+# Regras da aplicação
+
+[ x ] Deve ser possível criar um usuário
+[ x ] Deve ser possível identificar o usuário entre as requisições
+[ x ] Deve ser possível registrar uma refeição feita, com as seguintes - --------informações:
+--------_As refeições devem ser relacionadas a um usuário._
+--------Nome.
+--------Descrição.
+--------Data e Hora.
+--------Está dentro ou não da dieta.
+[ x ] Deve ser possível editar uma refeição, podendo alterar todos os dados acima.
+[ x ] Deve ser possível apagar uma refeição
+[ x ] Deve ser possível listar todas as refeições de um usuário
+[ x ] Deve ser possível visualizar uma única refeição
+[ x ] Deve ser possível recuperar as métricas de um usuário
+
+- [ x ] Quantidade total de refeições registradas
+- [ x ] Quantidade total de refeições dentro da dieta
+- [ x ] Quantidade total de refeições fora da dieta
+- [ x ] Melhor sequência de refeições dentro da dieta
+
+  [ x ] O usuário só pode visualizar, editar e apagar as refeições o qual ele criou
